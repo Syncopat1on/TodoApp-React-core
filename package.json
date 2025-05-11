@@ -17,13 +17,13 @@
     "prettier": "3.5.3"
   },
   "scripts": {
+    "build": "react-scripts build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "format": "prettier --write .",
-    "build": "react-scripts build"
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "semver": "^7.7.1"
   },
   "engines": {
