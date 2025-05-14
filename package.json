@@ -1,11 +1,9 @@
 {
-  "name": "todos",
+  "name": "todo",
   "version": "0.1.0",
   "private": true,
   "author": "",
   "license": "ISC",
-  "description": "",
-  
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -61,8 +59,12 @@
   },
   "main": "prettier.config.js",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/core": "7.16.0",
     "@babel/eslint-parser": "^7.27.1",
+    "@babel/plugin-transform-arrow-functions": "^7.27.1",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.27.1",
+    "babel-eslint": "^10.1.0",
     "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-jest-enzyme": "^7.1.2",
@@ -76,10 +78,7 @@
     "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.1",
-    "prettier": "^3.5.3",
-    "@babel/core": "7.16.0",
-    "@babel/preset-env": "7.5.5",
-    "@babel/preset-react": "7.27.1"
-  }
-  
+    "prettier": "^3.5.3"
+  },
+  "description": ""
 }
