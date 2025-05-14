@@ -17,16 +17,19 @@
     "prettier": "3.5.3"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages  -d build",
     "build": "react-scripts build",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "format": "prettier --write ."
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier  --write  src/**/*.{js,jsx}",
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint:fix": "eslint  \"src/**/*.{js,jsx}\" --fix"
   },
   "dependencies": {
+    "date-fns": "^4.1.0",
     "react-scripts": "^3.0.1",
     "semver": "^7.7.1"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
