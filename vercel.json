@@ -1,6 +1,5 @@
-{
-  "outputDirectory": "build",
-  "rewrites": [
-{ "source": "/(.*)", "destination": "/index.html" }
-]
-}
+{"outputDirectory": "build",
+        "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
+      }
